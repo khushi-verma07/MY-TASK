@@ -1,12 +1,44 @@
-# React + Vite
+PopX React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based app with a mobile-style centered card layout for user onboarding and account management.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome Page – Entry screen with options to create an account or login.
 
-## Expanding the ESLint configuration
+Signup Page – Form with validation for user details (name, email, phone, password, company, and agency selection).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Login Page – Email + password login form.
+
+Account Page – Displays user profile and settings in a neat card UI.
+
+Navigation Flow –
+
+Welcome → Create Account → Signup
+
+Welcome → Already Registered → Login
+
+Login → Account
+
+Signup → Account
+
+🛠 Tech Stack
+
+React 
+
+React Router DOM – For navigation
+
+Tailwind CSS – For styling
+
+Heroicons – For icons
+
+📂 Project Structure
+src/
+│── App.jsx           # Main app entry, handles routing
+│── index.js          # React DOM render
+│── pages/
+│    ├── Welcome.jsx  # Welcome page
+│    ├── Signup.jsx   # Signup form
+│    ├── Login.jsx    # Login form
+│    └── Account.jsx  # Account settings/profile
+
