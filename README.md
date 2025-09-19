@@ -32,13 +32,3 @@ Tailwind CSS – For styling
 
 Heroicons – For icons
 
-📂 Project Structure
-src/
-│── App.jsx           # Main app entry, handles routing
-│── index.js          # React DOM render
-│── pages/
-│    ├── Welcome.jsx  # Welcome page
-│    ├── Signup.jsx   # Signup form
-│    ├── Login.jsx    # Login form
-│    └── Account.jsx  # Account settings/profile
-
